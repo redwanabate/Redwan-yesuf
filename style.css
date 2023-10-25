@@ -1,0 +1,207 @@
+body {
+    background-color: rgba(60, 225, 195, 0.545);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgba(60, 225, 195, 1.000);
+    height: 145px;
+    width: 100%;
+    position: fixed;
+
+}
+
+#profile {
+    width: 4vw;
+    height: auto;
+    border-radius: 0.8vw;
+    left: 0.8vw;
+    top: 1.3vw;
+    position: fixed;
+}
+
+#profile2 {
+    width: 4.2vw;
+    height: 5.2vw;
+    border-radius: 0.8vw;
+    right: 17.6vw;
+    top: 1.3vw;
+    position: fixed;
+}
+
+#h2 {
+    position: fixed;
+    top: 1.5vw;
+    left: 6vw;
+}
+
+#h22 {
+    position: fixed;
+    top: 1.5vw;
+    right: 7.6vw;
+}
+
+
+
+#parag {
+    position: fixed;
+    top: 4vw;
+    left: 7.5vw;
+    font-style: italic;
+}
+
+#parag2 {
+    position: fixed;
+    top: 4vw;
+    right: 2.6vw;
+    font-style: italic;
+}
+
+
+header > p {
+    position: fixed;
+    left: 42vw;
+    top: 7vw;
+    font-size: 2vw;
+}
+
+main {
+    padding: 13vw 5vw 5vw 5vw;
+}
+
+.main-r {
+
+    padding: 13vw 19vw 5vw 19vw;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    gap: 6vw;
+
+
+}
+
+.box1 {
+    display: inline-block;
+    justify-items: flex-start;
+    width: 15vw;
+
+}
+
+.box1 > a > p {
+    width: 12vw;
+    text-decoration: none;
+    color: blue;
+}
+
+.box2 {
+    display: inline-block;
+    justify-items: flex-end;   
+}
+
+.img-box {
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+
+.box2 ul {
+    margin-left: 4vw;
+}
+
+.box2 ul p {
+    padding-bottom: 0.7vw;
+}
+
+.box2 ol {
+    margin-left: 4vw;
+}
+
+.box2 ol p {
+    padding-bottom: 0.7vw;
+}
+
+main h1 {
+    padding-left: 22vw;
+    text-decoration: underline black;
+    color: darkblue;
+    padding-bottom: 2.5vw;
+}
+
+
+main p {
+    font-size: 1.3vw;
+}
+
+span {
+    font-weight: bold;
+}
+
+
+.img1 {
+    width: 20vw;
+    height: 15vw;
+}
+
+
+
+.img2 {
+    width: 30vw;
+    height: auto;
+}
+
+
+.img3 {
+    width: 30vw;
+    height: auto;
+}
+
+
+footer {
+    background-color: rgba(60, 225, 195, 1.000);
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+
+}
+
+
+footer>h3 {
+    display: inline-block;
+    margin-left: 64vw;
+}
+
+
+
+footer>p {
+    text-align: center;
+    margin-bottom: 1.5vw;
+    border-top: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+
+footer>nav {
+
+    display: inline-block;
+    position: static;
+
+}
+
+
+footer>nav>a {
+    margin-right: 0.7vw;
+    margin-left: 1.5vw;
+    color: black;
+}
+
+footer>nav>a:hover {
+    color: blue;
+}
